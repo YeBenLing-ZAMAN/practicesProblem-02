@@ -99,6 +99,13 @@ li a {
     background-size:  auto , 3000px;
     margin-bottom: 150px;
 }
+.work_part h1{
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 40px;
+    margin-right: 15%;
+    font-size: 2em;
+}
 .flexible_contianer{
     display: flex;
     width: 100%;
@@ -120,6 +127,7 @@ li a {
 .webCard h2{
     text-align: center;
     padding: 20px;
+    text-transform: capitalize;
 }
 .webCard p{
     padding: 10px;
@@ -182,6 +190,13 @@ display: flex;
 
 
 /* message_and_links_part_start */
+
+.messageAndLinks{
+    /* margin-top: 250px; */
+    background-image: url(images/natural_image_webcard.png);
+    background-repeat: no-repeat;
+}
+
 .message{
     text-align: center;
     background: linear-gradient(to right, orange 10%, tomato 100%);
@@ -196,14 +211,16 @@ display: flex;
 .message:hover{
     text-align: center;
     background-color: white;
-    color: tomato;
+    color: white;
     margin: 40px 300px;
     padding: 20px;
     border-radius: 5px;
-    border: 2px solid tomato;
+    border: 2px solid white;
 
 }
 
+
+/* link part start */
 
 .links{
     float: left;
