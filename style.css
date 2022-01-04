@@ -232,10 +232,10 @@ display: flex;
 .links a:hover{
     height: 40px;
     width: 40px;
-    background-color: #eee6e8;
+    background: white;
     border-radius: 5px;
     display: inline-block;
-    background: linear-gradient(to right, orange 10%, tomato 100%);
+    border: 1px solid linear-gradient(to right, orange 10%, tomato 100%);;
     line-height: 32px;
     text-align: center;
     margin: 0 10px;
