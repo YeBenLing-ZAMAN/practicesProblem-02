@@ -95,7 +95,7 @@ li a {
 /* home_part_design_end */
 
 
-/* Biography_part desing_ start */
+/* Biography_part desing_start */
 .Biography_part{
     display: flex;
     background-image: url(images/biography-bg.png);
@@ -177,15 +177,13 @@ width: 518px;
 
 .client{
 display: flex;
-
+justify-content: center;
 }
 
 .client_detail{
-    width: 50%;
-    margin: 30px;
-    margin-left: 60px;
-    margin-top: 20px;
-    margin-right: 60px;
+    width: 25%;
+    height: 500px;
+    margin: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(46, 43, 43);
 }
@@ -211,6 +209,7 @@ display: flex;
 }
 
 /* client_part_end */
+
 
 
 
