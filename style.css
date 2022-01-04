@@ -73,14 +73,14 @@ li a {
 
 .button_icons{
     padding: 10px 40px;
-    background-color: rgb(252, 112, 87);
+    background: linear-gradient(to right, orange 10%, tomato 100%);
     border: 5px rgb(184, 180, 180);
     border-radius: 5px;
 }
 
 .button_icons:hover {
-    background-color: rgb(252, 41, 4);
-    border: 5px rgb(243, 179, 179);
+    background: linear-gradient(to left, orange 10%, tomato 100%);
+    border: 5px rgb(236, 96, 96);
     border-radius: 5px;
 }
 .button_icons a{
@@ -89,7 +89,33 @@ li a {
     text-transform: uppercase;
     color: white;
 }
+.button_icons a:hover{
+    color: rgb(10, 9, 8);
+}
 /* home_part_design_end */
+
+
+/* Biography_part desing_ start */
+.Biography_part{
+    display: flex;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+
+
+.child_Biography_part{
+    background-image: url(images/my-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.child_Biography_part img{
+height: 517px;
+width: 518px;
+}
+/* Biography_part desing_ end */
+
 
 /* work_part_design_start */
 .work_part{
