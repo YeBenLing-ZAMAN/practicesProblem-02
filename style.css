@@ -108,18 +108,23 @@ li a {
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     margin-bottom: 200px;
+    overflow: hidden;
 }
 
 
 .child_Biography_part{
-    background-image: url(images/my-bg2.png);
-    background-repeat: no-repeat;
     background-size: 100% 100%;
+    width:60%;
+    margin-left: 120px;
 }
 
 .child_Biography_part img{
 height: 517px;
 width: 518px;
+width: 80%;
+margin-left: 71px;
+margin-top: 53px;
+
 }
 /* Biography_part desing_ end */
 
