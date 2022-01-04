@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
-
+/* nav_bar_design_start */
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,4 +34,63 @@ li a {
   .active {
     background-color: #04AA6D;
   }
+  /* nav_bar_design_end */
+
+
+
+  /* home_part_design_start */
+
+.home_part{
+    display: flex;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+.child_home_part{
+    width:60%;
+    margin-left: 120px;
+    margin-top: 40px;
+ 
+}
+
+.child_home_part img{
+    width: 60%;
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.child_home_part h1{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+.name{
+    color: tomato;
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.button_icons{
+    padding: 10px 40px;
+    background-color: rgb(252, 112, 87);
+    border: 5px rgb(184, 180, 180);
+    border-radius: 5px;
+}
+
+.button_icons:hover {
+    background-color: rgb(252, 41, 4);
+    border: 5px rgb(243, 179, 179);
+    border-radius: 5px;
+}
+.button_icons a{
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+}
+/* home_part_design_end */
+
+
+
   
