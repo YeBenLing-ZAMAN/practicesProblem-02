@@ -91,6 +91,89 @@ li a {
 }
 /* home_part_design_end */
 
+/* work_part_design_start */
+.work_part{
+    background-image: url(images/dream-bg.png) ,url(images/top-banner.png);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: right bottom, left top ;
+    background-size:  auto , 3000px;
+    margin-bottom: 150px;
+}
+.flexible_contianer{
+    display: flex;
+    width: 100%;
+}
+.webCard{
+    height: 100%;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(46, 43, 43);
+
+}
+
+.webCard img{
+    width: 100%;
+}
+
+.webCard h2{
+    text-align: center;
+    padding: 20px;
+}
+.webCard p{
+    padding: 10px;
+}
+
+/* work_part_design_end */
 
 
-  
+/* client_part_start */
+.client_review{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.client_review h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.client{
+display: flex;
+
+}
+
+.client_detail{
+    width: 50%;
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(46, 43, 43);
+}
+
+.client_detail h2{
+    text-align: center;
+    padding: 20px;
+
+}
+.client_detail p{
+    padding: 15px;
+}
+
+.client_detail img{
+    margin-top: 15px;
+    height:250px; 
+    width:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;    
+}
+
+/* client_part_end */
